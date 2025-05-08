@@ -22,15 +22,26 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.2 }}
 					className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600"
 				>
-					John Doe
+					Alvina Chow
 				</motion.h1>
+				<motion.h2
+					initial={{ y: 50 }}
+					animate={{ y: 0 }}
+					transition={{ duration: 0.8, delay: 0.2 }}
+					className="text-2xl md:text-2xl text-gray-600 mb-8 px-4"
+				>
+					Aspiring Product Manager
+				</motion.h2>
 				<motion.p
 					initial={{ y: 50, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ duration: 0.8, delay: 0.4 }}
 					className="text-lg md:text-xl text-gray-600 mb-8 px-4"
 				>
-					Full Stack Developer & UI/UX Enthusiast
+					B.S. Computer Science
+					<br></br>
+					B.S. Business Information Management
+					
 				</motion.p>
 			</div>
 
