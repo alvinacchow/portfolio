@@ -47,7 +47,7 @@ export default function ContactSection() {
 				>
 					<a
 						href="mailto:alvinacchow@gmail.com"
-						className="group flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-800 rounded-full hover:bg-gray-200 transition-colors w-full sm:w-auto"
+						className="group flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-800 rounded-full hover:bg-gray-200 transition-colors sm:w-auto"
 					>
 						<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
 							<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -58,7 +58,7 @@ export default function ContactSection() {
 					<a
 						href="https://docs.google.com/document/d/1c82MkY0J2mB9yJ89EGK7eUgOjWXF7_wr4ShheSxVZZ0/export?format=pdf&attachment=false"
 						target="_blank"
-						className="group flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-800 rounded-full hover:bg-gray-200 transition-colors w-full sm:w-auto"
+						className="group flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-800 rounded-full hover:bg-gray-200 transition-colors sm:w-auto"
 					>
 						<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
 							<path d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" />
