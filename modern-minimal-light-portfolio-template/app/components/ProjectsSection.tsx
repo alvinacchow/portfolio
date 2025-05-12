@@ -8,6 +8,7 @@ const projects = [
 	{
 		id: 1,
 		title: 'Fabflix',
+		role: 'Full-Stack Development',
 		description: 'Movie discovery and purchase platform',
 		image: '/fabflix.png',
 		github: 'https://github.com/alvinacchow/cs122b-public',
@@ -16,6 +17,7 @@ const projects = [
 	{
 		id: 2,
 		title: 'LandMark',
+		role: 'Full-Stack Development',
 		description: 'Real estate investment simulator with predictive AI models',
 		image: '/landmark.jpg',
 		github: 'https://github.com/alvinacchow/property-investment',
@@ -24,6 +26,7 @@ const projects = [
 	{
 		id: 3,
 		title: 'Trailblazer',
+		role: 'Full-Stack Development',
 		description: 'Educating and inspiring girls to thrive in sports',
 		image: '/sports2.png',
 		github: 'https://github.com/alvinacchow/sportsApp',
@@ -32,6 +35,7 @@ const projects = [
 	{
 		id: 4,
 		title: 'Where Do We Eat?',
+		role: 'Backend Development',
 		description: 'Vote on dinner choices and discover top picks',
 		image: '/food.png',
 		github: 'https://github.com/jxsusilo/where-do-we-eat',
@@ -67,7 +71,7 @@ export default function ProjectsSection() {
 						<div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black/90 group-hover:to-black/95 transition-colors duration-300" />
 						<div className="absolute inset-0 p-6 flex flex-col justify-end">
 							<h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
-							<p className="text-gray-200 mb-4 line-clamp-2">{project.description}</p>
+							<p className="text-gray-200 mb-4 line-clamp-2">{project.role}<br></br>{project.description}</p>
 							<div className="flex gap-4">
 								<Link
 									href={project.github}
