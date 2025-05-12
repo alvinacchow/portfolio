@@ -7,27 +7,35 @@ import Link from 'next/link';
 const projects = [
 	{
 		id: 1,
-		title: 'E-Commerce Platform',
-		description: 'A modern e-commerce platform built with Next.js and Stripe',
-		image: '/code.jpg',
+		title: 'Fabflix',
+		description: 'Movie discovery and purchase platform',
+		image: '/fabflix.png',
+		github: 'https://github.com/alvinacchow/cs122b-public',
+		devpost: ''
 	},
 	{
 		id: 2,
-		title: 'AI Chat Application',
-		description: 'Real-time chat application powered by OpenAI',
-		image: '/laptop.jpg',
+		title: 'LandMark',
+		description: 'Real estate investment simulator with predictive AI models',
+		image: '/landmark.jpg',
+		github: 'https://github.com/alvinacchow/property-investment',
+		devpost: 'https://devpost.com/software/landmark-m740ng',
 	},
 	{
 		id: 3,
-		title: 'Task Management',
-		description: 'Collaborative task management tool with real-time updates',
-		image: '/code.jpg',
+		title: 'Trailblazer',
+		description: 'Educating and inspiring girls to thrive in sports',
+		image: '/sports2.png',
+		github: 'https://github.com/alvinacchow/sportsApp',
+		devpost: '',
 	},
 	{
 		id: 4,
-		title: 'Portfolio Generator',
-		description: 'Dynamic portfolio generator for developers',
-		image: '/laptop.jpg',
+		title: 'Where Do We Eat?',
+		description: 'Vote on dinner choices and discover top picks',
+		image: '/food.png',
+		github: 'https://github.com/jxsusilo/where-do-we-eat',
+		devpost: 'https://devpost.com/software/where-do-we-eat'
 	},
 ];
 
@@ -62,17 +70,20 @@ export default function ProjectsSection() {
 							<p className="text-gray-200 mb-4 line-clamp-2">{project.description}</p>
 							<div className="flex gap-4">
 								<Link
-									href="#"
+									href={project.github}
 									className="text-sm px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-full transition-all duration-300 backdrop-blur-sm"
 								>
-									View Project
+									Github
 								</Link>
-								<Link
-									href="#"
-									className="text-sm px-4 py-2 bg-white hover:bg-gray-100 text-gray-900 rounded-full transition-all duration-300 backdrop-blur-sm"
-								>
-									GitHub
-								</Link>
+								{project.devpost !== '' && (
+									<Link
+										href={project.devpost}
+										className="text-sm px-4 py-2 bg-white hover:bg-gray-100 text-gray-900 rounded-full transition-all duration-300 backdrop-blur-sm"
+									>
+										DevPost
+									</Link>
+								)}
+							
 							</div>
 						</div>
 					</motion.div>
