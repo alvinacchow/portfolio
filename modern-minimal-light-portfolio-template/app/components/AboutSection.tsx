@@ -91,7 +91,7 @@ export default function ProjectsSection() {
 
             <div className="justify-center">
                 <div className="relative rounded-2xl overflow-hidden group shadow-lg">
-                    <img
+                    <Image
                         src="/portrait-main.jpg"
                         alt="Portrait of Alvina Chow"
                         className="w-full h-auto" 
