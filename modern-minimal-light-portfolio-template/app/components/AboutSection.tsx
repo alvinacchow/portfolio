@@ -10,7 +10,7 @@ export default function ProjectsSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-10">
                 <div className="space-y-6 text-center">
                     <h1 className="text-4xl font-semibold text-gray-900">
-                        Hi, I'm Alvina! <span className="inline-block">👋</span>
+                        Hi, I&apos;m Alvina! <span className="inline-block">👋</span>
                     </h1>
                     <p className="text-lg text-gray-700">
                         Aspiring product manager based in the San Francisco Bay Area.
