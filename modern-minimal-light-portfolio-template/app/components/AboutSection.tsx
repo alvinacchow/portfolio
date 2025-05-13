@@ -19,7 +19,7 @@ export default function ProjectsSection() {
                         With a computer science and business background, I specialize in designing innovative products that address real-world problems.
                     </p>
                     <p className="text-lg text-gray-700">
-                        Feel free to reach out—I’d love to connect!
+                        Feel free to reach out—I&apos;d love to connect!
                     </p>
 
                     <motion.div
