@@ -13,17 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Alvina Chow',
+	title: 'Alvina Chloe Chow',
 	description:
-		'Welcome to my portfolio! I am an aspiring product manager. I believe in developing products that tackle customer problems.',
+		'Welcome to my portfolio! I believe in building data-driven products that tackle customer problems.',
 	keywords: [
 		'Product Manager',
 		'Project Manager',
 		'Technical Product Manager',
 		'Technical Project Manager',
+		'Data Analyst',
+		'Product Analyst',
+		'Business Analyst',
 		'Web Development',
 		'User Experience',
 		'Design Systems',
+		'Data Analytics',
+		'Data Visualization',
 		'JavaScript',
 		'TypeScript',
 		'React',
@@ -32,13 +37,14 @@ export const metadata: Metadata = {
 		'Accessibility',
 		'Minimalist Portfolio',
 		'Alvina Chow',
+		'Alvina Chloe Chow'
 	],
 	authors: [{ name: 'Alvina Chow' }],
 	creator: 'Alvina Chow',
 	openGraph: {
 		title: 'Alvina Chow - Portfolio',
-		description: 'Passionate product manager developing software that solves problems. Explore my work and experiences.',
-		url: 'https://your-domain.com',
+		description: 'Passionate about developing data-driven software that solves problems. Explore my work and experiences.',
+		url: 'https://alvinacchow.vercel.app',
 		siteName: 'Alvina Chow - Portfolio',
 		images: [
 			{
