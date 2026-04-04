@@ -12,7 +12,8 @@ const projects = [
 		description: 'Movie discovery and purchase platform',
 		image: '/fabflix.png',
 		github: 'https://github.com/alvinacchow/cs122b-public',
-		devpost: ''
+		devpost: '',
+		live: ''
 	},
 	{
 		id: 2,
@@ -22,6 +23,7 @@ const projects = [
 		image: '/landmark.jpg',
 		github: 'https://github.com/alvinacchow/property-investment',
 		devpost: 'https://devpost.com/software/landmark-m740ng',
+		live: ''
 	},
 	{
 		id: 3,
@@ -31,6 +33,7 @@ const projects = [
 		image: '/sports2.png',
 		github: 'https://github.com/alvinacchow/sportsApp',
 		devpost: '',
+		live: ''
 	},
 	{
 		id: 4,
@@ -39,8 +42,30 @@ const projects = [
 		description: 'Vote on dinner choices and discover top picks',
 		image: '/food.png',
 		github: 'https://github.com/jxsusilo/where-do-we-eat',
-		devpost: 'https://devpost.com/software/where-do-we-eat'
+		devpost: 'https://devpost.com/software/where-do-we-eat',
+		live: ''
 	},
+	{
+		id: 5,
+		title: 'YouTube Analytics',
+		role: 'Data Analytics',
+		description: 'Compare video engagement patterns bewteen Japan and the United States',
+		image: '/youtube-data.png',
+		github: 'https://github.com/alvinacchow/youtube-analytics/tree/main',
+		devpost: '',
+		live: ''
+	},
+	{
+		id: 6,
+		title: 'SmartPack',
+		role: 'Full-Stack Development',
+		description: 'Survey-based, user-focused travel packing recommendation system',
+		image: '/smartpack.png',
+		github: 'https://github.com/bowenwang0815/SmartPack',
+		devpost: '',
+		live: 'https://smart-pack.vercel.app/'
+	}
+
 ];
 
 export default function ProjectsSection() {
@@ -85,6 +110,14 @@ export default function ProjectsSection() {
 										className="text-sm px-4 py-2 bg-white hover:bg-gray-100 text-gray-900 rounded-full transition-all duration-300 backdrop-blur-sm"
 									>
 										DevPost
+									</Link>
+								)}
+								{project.live !== '' && (
+									<Link
+										href={project.live}
+										className="text-sm px-4 py-2 bg-white hover:bg-gray-100 text-gray-900 rounded-full transition-all duration-300 backdrop-blur-sm"
+									>
+										Live Site
 									</Link>
 								)}
 							

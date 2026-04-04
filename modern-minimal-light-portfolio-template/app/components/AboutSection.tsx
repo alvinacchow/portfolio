@@ -13,9 +13,6 @@ export default function ProjectsSection() {
                         Hi, I&apos;m Alvina! <span className="inline-block">👋</span>
                     </h1>
                     <p className="text-lg text-gray-700">
-                        Aspiring product manager based in the San Francisco Bay Area.
-                    </p>
-                    <p className="text-lg text-gray-700">
                         With a computer science and business background, I specialize in designing innovative products that address real-world problems.
                     </p>
                     <p className="text-lg text-gray-700">

@@ -22,7 +22,7 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.2 }}
 					className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600"
 				>
-					Alvina Chow
+					Alvina Chloe Chow
 				</motion.h1>
 				<motion.h2
 					initial={{ y: 50 }}
@@ -30,7 +30,7 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.2 }}
 					className="text-2xl md:text-2xl text-gray-600 mb-8 px-4"
 				>
-					Aspiring Product Manager
+					Data-Driven Product Manager
 				</motion.h2>
 				<motion.p
 					initial={{ y: 50, opacity: 0 }}
