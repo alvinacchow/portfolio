@@ -2,11 +2,11 @@
 
 import { motion } from 'framer-motion';
 
-const languages = ['Python', 'Java', 'C++', 'C', 'Swift', 'HTML', 'JavaScript', 'CSS', 'SQL', 'Dart'];
-const frameworks = ['React', 'React Native', 'Flask', 'SwiftUI', 'XGBoost'];
+const languages = ['Python', 'Java', 'C++', 'C', 'Swift', 'HTML', 'JavaScript', 'CSS', 'Dart'];
+const frameworks = ['React', 'React Native', 'Flask', 'SwiftUI'];
 const technologies = ['AWS', 'Tomcat', 'Kubernetes', 'Docker'];
-const tools = ['Slack', 'GitHub', 'Figma', 'Lucidchart', 'Aha!'];
-const analytics = ['PowerBI', 'Excel', 'Jupyter Notebook', 'Data Visualization', 'Data Analysis']
+const tools = ['Slack', 'GitHub', 'Figma', 'Lucidchart', 'Aha!', 'Jira'];
+const analytics = ['PowerBI', 'Excel', 'SQL', 'R', 'Jupyter Notebook']
 
 
 export default function SkillsSection() {
