@@ -56,7 +56,7 @@ export default function ContactSection() {
 						<span>Get in Touch</span>
 					</a>
 					<a
-						href="https://docs.google.com/document/d/1c82MkY0J2mB9yJ89EGK7eUgOjWXF7_wr4ShheSxVZZ0/export?format=pdf&attachment=false"
+						href="https://docs.google.com/document/u/1/d/117N8BqRr3rus3knOwCDsNsae037DWsRN/export?format=pdf&attachment=false"
 						target="_blank"
 						className="group flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-800 rounded-full hover:bg-gray-200 transition-colors sm:w-auto"
 					>
